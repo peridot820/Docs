@@ -1,0 +1,61 @@
+site_name: Docs
+site_description: 기술문서 모음
+repo_url: https://github.com/peridot820/Docs
+repo_name: peridot820/Docs
+
+theme:
+  name: material
+  language: ko
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: white
+      accent: indigo
+      toggle:
+        icon: material/weather-night
+        name: 다크 모드로 전환
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: black
+      accent: indigo
+      toggle:
+        icon: material/weather-sunny
+        name: 라이트 모드로 전환
+  font:
+    text: Noto Sans KR
+    code: JetBrains Mono
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.sections
+    - navigation.top
+    - navigation.footer
+    - toc.follow
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - toc:
+      permalink: true
+
+nav:
+  - 홈: index.md
+  - 시작하기: getting-started.md
+  - Claude:
+      - 개요: claude/index.md
+      - 새 문서: claude/new-doc.md
+  - Codex:
+      - 개요: codex/index.md
+      - 새 문서: codex/new-doc.md
+  - AI Agent 활용 팁:
+      - 개요: ai-agent-tips/index.md
+      - 새 문서: ai-agent-tips/new-doc.md
+  - MCP:
+      - 개요: mcp/index.md
+      - 새 문서: mcp/new-doc.md
