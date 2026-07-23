@@ -66,6 +66,7 @@ nav:
   - AI Agent 활용 팁:
       - 개요: ai-agent-tips/index.md
       - Codex vs Claude Code: ai-agent-tips/Codex-vs-ClaudeCode.md
+      - Skills vs Plugins: ai-agent-tips/skills-vs-plugins.md
   - MCP:
       - 개요: mcp/index.md
       - 새 문서: mcp/new-doc.md
