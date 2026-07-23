@@ -1,4 +1,4 @@
-# 새 문서
+# ClaudeCode강의내용
 박영웅 강사님 강의
 
 홈페이지 : HEROPY.DEV | HEROPY.DEV
