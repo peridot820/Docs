@@ -49,13 +49,14 @@ nav:
   - 시작하기: getting-started.md
   - Claude:
       - 개요: claude/index.md
+      - Claude Cowork 핵심 정리: claude/ClaudeCowork.md
       - 새 문서: claude/new-doc.md
   - Codex:
       - 개요: codex/index.md
-      - 새 문서: codex/new-doc.md
+      - ClaudeCode 강의내용: codex/ClaudeCode강의내용.md
   - AI Agent 활용 팁:
       - 개요: ai-agent-tips/index.md
-      - 새 문서: ai-agent-tips/new-doc.md
+      - Codex vs Claude Code: ai-agent-tips/Codex-vs-ClaudeCode.md
   - MCP:
       - 개요: mcp/index.md
       - 새 문서: mcp/new-doc.md

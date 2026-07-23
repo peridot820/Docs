@@ -2,4 +2,9 @@
 
 이 사이트는 기술문서를 정리하는 공간입니다.
 
-왼쪽 네비게이션에서 원하는 문서를 선택하세요.
+## 카테고리
+
+- [Claude](claude/index.md)
+- [Codex](codex/index.md)
+- [AI Agent 활용 팁](ai-agent-tips/index.md)
+- [MCP](mcp/index.md)
